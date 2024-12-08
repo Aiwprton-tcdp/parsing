@@ -1,0 +1,7 @@
+npx license mit
+npx gitignore node
+npx covgen YOUR_EMAIL_ADDRESS
+npm init -y
+npx tsc --init
+
+help: https://habr.com/ru/articles/536512/

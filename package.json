@@ -1,0 +1,32 @@
+{
+  "name": "parsing",
+  "version": "0.0.1",
+  "description": "Парсинг расписания игр КХЛ",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx tsx src/index.ts",
+    "_dev": "npx tsx nodemon src/index.ts",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Aiwprton-tcdp",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "@types/selenium-webdriver": "^4.1.27",
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
